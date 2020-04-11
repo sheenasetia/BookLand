@@ -1,0 +1,94 @@
+
+input {
+    background: none;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+form {
+    margin-top: 120px;
+    margin-left: 500px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+}
+
+#main {
+    background-image: url("https://umaine.edu/canam/wp-content/uploads/sites/149/2018/01/lib.png");
+    position: fixed;
+    width:auto;
+    height:100%;
+    left:0px;
+    right: 0px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.welcome .content {
+    margin-top:300px;
+    margin-left:350px; 
+    text-align: center;
+    color:black;
+    position: absolute;
+}
+
+.Navbar {
+    width: 100%;
+}
+
+.Navbar nav {
+    background-color:black ;
+    opacity:0.6;
+}
+
+.Navbar nav div a, a:not([href]):not([tabindex]) {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.Navbar nav div a:hover , a:not([href]):not([tabindex]):hover{
+    color: aqua;
+}
+
+#bookList {
+    margin-top:100px; 
+}
+ 
+#bookList h1 {
+    text-align: center;
+    position: relative;
+}
+
+form button{
+    color: black;
+    background-color: aqua;
+    border-color:none;
+    border-width:0px;
+    font-weight: 500;
+    border-radius:3px; 
+    font-size: larger;
+    padding: 5px;
+}
+
+form input {
+    background: none;
+}
+
+/*h1 {
+    margin: 300px auto auto 400px;
+    position: absolute;
+    color: #e9ecef;
+    font-family: inherit;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: monospace;
+}
+*/
